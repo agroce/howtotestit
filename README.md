@@ -1,4 +1,4 @@
-# howtotestit
+# How To Test It
 To build the book, which is a work in progress, do whatever it takes
 to make this command work:
 
