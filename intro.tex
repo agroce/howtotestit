@@ -1,1 +1,57 @@
 \chapter{Introduction:  What is Testing?}
+
+Software testing is a special instance of a more general concept:  the
+idea of \emph{testing} a specific claim, a physical object, a
+scientific theory, or a more abstract and general idea.  At heart,
+testing involves \emph{probing for weakness}.  We say that a soldier
+is tested by combat, a scientific theory is tested by an experiment \cite{Popper},
+or (most commonly) a student is tested by, well, a test.  Testing is
+inherently adversarial:  a soldier is tested by combat precisely
+because it is a matter of ``trial by fire'' where there is a
+possibility of \emph{failure}.  A soldier may be unable to fire on
+command, unable to advance on a fortified position, or may even turn
+and run.  A scientific theory may make a prediction that is
+falsified.  A student may fail to make a passing grade.
+To start this book on a grim note,
+testing is an inherently \emph{skeptical}, \emph{adversarial},
+\emph{harsh}, and even
+(in a certain sense) \emph{cruel} practice.
+
+It is also, of course, essential.  One way to look at testing is to
+consider the case of the soldier tested by combat, though shifted to
+the implements of war to better match the problem of software testing; as John Paul Jones
+wrote, ``I wish to have no connection with any ship that does not sail
+fast; for I intend to go in harm's way.''  That is to say, the purpose
+of a vessel in a navy is to engage in dangerous behavior.  Yet, even John
+Paul Jones would certainly prefer to discover if a ship does in fact
+sail fast in a non-harm's-way trial, and obtain a different ship, or
+alter the arrangement of sails at least, if it does not.  The art and science of testing,
+in software or otherwise, is generally a response to the fact that
+reality will impose a most vicious kind of testing indeed on all of our creations; we
+would prefer to find out if the subjects of this unavoidable testing
+are up to the task in a less consequential way, and have a chance to
+fix any leaks before sailing into deep waters.  Great Nature, or at
+least some hapless software user or malicious hacker, will put every important
+piece of code into ``combat'' --- we need to train our ``soldiers'' to meet
+enemy fire with honor and skill.
+
+Testing is, also, of course, a great deal of fun, if you have the
+right kind of mindset.  Creation is deeply engaging, but destruction
+also has its charms.  Many people (not all of them unpleasant people
+in comment boxes on the Internet) enjoy posing a question that
+undermines an incorrect argument; arguably, at least since Socrates,
+the philosophical mind has concerned itself with finding ``tests''
+that defeat weak ideas.  
+
+\section{Testing vs. Proof}
+
+In the world of mathematics, which has fundamental connections to
+software (since computer programs are mathematical entities, at
+heart), testing is intimately connected to the notion of proof.
+Consider a mathematical claim, such as Fermat's Last Theorem, which
+states that no three positive integers $a$, $b$, and $c$ exist that
+satisfy the equation $a^n + b^n = c^n$ for any integer $n > 2$.  There
+are two obvious things to ``do'' with such a claim.  One of these is
+to test it:  to attempt to produce an $a$, $b$, $c$, and $n$ that show
+the claim is false.  The other, of course, is to \emph{prove} that no
+such tuple $(a, b, c, n)$ exists.
